@@ -1,4 +1,4 @@
 # Etch-a-Sketch
-My version of etch-a-sketch for The Odin Project
+My version of Etch-a-Sketch for The Odin Project
 
 # Live Preview
