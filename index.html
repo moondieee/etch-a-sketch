@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Etch A Sketch</title>
+  </head>
+  <body>
+    <h1>Etch a Sketch</h1>
+    <div class="container">
+      <div class="container-header">
+        <div class="left-buttons">
+          <button class="reset">Reset</button>
+          <button class="black">Black</button>
+          <button class="rgb">RGB</button>
+        </div>
+        <div class="right-buttons">
+          <div class="slider-container">
+            <input
+              value="16"
+              type="range"
+              min="16"
+              max="100"
+              id="slider"
+              step="2"
+            />
+            <span class="value">16</span>
+          </div>
+        </div>
+      </div>
+      <div class="grid"></div>
+    </div>
+    <div class="footer">
+      <img src="../GitHub-Logo.wine.svg" alt="" /><a
+        href="https://github.com/moondieee"
+        target="”_blank”"
+        >Made by: Andrey Shuvatov</a
+      >
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
